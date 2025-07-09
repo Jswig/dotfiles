@@ -1,2 +1,4 @@
 alias dlv="~/go/bin/dlv"
 alias vactivate="source .venv/bin/activate"
+alias kc="kubectl"
+
