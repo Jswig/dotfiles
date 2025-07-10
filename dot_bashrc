@@ -1,6 +1,9 @@
+# mise-en-place
+eval "$(~/.local/bin/mise activate bash)"
+
 # powerline-go
 function _update_ps1() {
-    PS1="$(powerline-go -error $? -jobs $(jobs -p | wc -l))"
+    PS1="$(powerline-go -cwd-mode plain -git-mode simple -shell bash -hostname-only-if-ssh -error $? -jobs $(jobs -p | wc -l))"
 
     # Uncomment the following line to automatically clear errors after showing
     # them once. This not only clears the error for powerline-go, but also for
@@ -11,7 +14,4 @@ function _update_ps1() {
 }
 
 PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-
-# mise-en-place
-eval "$(~/.local/bin/mise activate bash)"
 
