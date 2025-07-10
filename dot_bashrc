@@ -10,9 +10,7 @@ function _update_ps1() {
     #set "?"
 }
 
-if [ "$TERM" != "linux" ] && [ -f "~/.local/bin/powerline-go" ]; then
-    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-fi
+PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 
 # mise-en-place
 eval "$(~/.local/bin/mise activate bash)"
