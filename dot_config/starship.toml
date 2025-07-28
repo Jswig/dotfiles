@@ -1,0 +1,39 @@
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
+
+[directory]
+repo_root_style = "bold blue"
+style = "blue"
+truncation_length = 4
+
+[battery]
+disabled = true
+
+[package]
+disabled = true
+
+[golang]
+disabled = true
+
+[git_branch]
+format = "[$symbol$branch(:$remote_branch) ]($style)"
+symbol = "git:"
+style = "black"
+
+[git_commit]
+style = "green"
+
+[git_state]
+style = "yellow"
+
+[git_status]
+style = "red"
+
+[nodejs]
+disabled = true
+
+[python]
+format = '[${symbol}$virtualenv]($style)'
+style = "purple"
+symbol = "py:"
