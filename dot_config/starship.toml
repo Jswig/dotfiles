@@ -1,3 +1,5 @@
+format = "$all"
+
 [character]
 success_symbol = "[❯](green)"
 error_symbol = "[❯](red)"
@@ -34,6 +36,11 @@ style = "red"
 disabled = true
 
 [python]
-format = '[${symbol}$virtualenv]($style)'
+format = "[${symbol}$viruenv]($style)"
 style = "purple"
 symbol = "py:"
+
+[time]
+disabled = false
+format = "[$time]($style) "
+style = "bold italic bright-black"
