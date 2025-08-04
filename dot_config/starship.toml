@@ -21,7 +21,7 @@ disabled = true
 [git_branch]
 format = "[$symbol$branch(:$remote_branch) ]($style)"
 symbol = "git:"
-style = "black"
+style = "bright-black"
 
 [git_commit]
 style = "green"
