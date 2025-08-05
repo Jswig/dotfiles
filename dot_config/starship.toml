@@ -1,5 +1,8 @@
 format = "$all"
 
+[aws]
+symbol = "aws:"
+
 [character]
 success_symbol = "[❯](green)"
 error_symbol = "[❯](red)"
@@ -36,7 +39,7 @@ style = "red"
 disabled = true
 
 [python]
-format = "[${symbol}$viruenv]($style)"
+format = "[${symbol}$virtualenv]($style) "
 style = "purple"
 symbol = "py:"
 
