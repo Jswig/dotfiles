@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 #
 # creates a temporary directory, then switch to it
 cd "$(mktemp -d)"
