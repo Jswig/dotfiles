@@ -1,13 +1,11 @@
 [tools]
 chezmoi = "latest"
-claude-code = "latest"
 github-cli = "latest"
 go = "1.24"
-node = "24.4.0"
 ripgrep = "latest"
 starship= "latest"
+uv = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = ["python"]
 experimental = true
-
