@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# pretty-prints the contents of $PATH, one item per line
+
+set -euo pipefail
+echo "$PATH" | tr ':' '\n'
+
