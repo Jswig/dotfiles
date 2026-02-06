@@ -2,10 +2,12 @@
 
 ## Bootstrapping the system
 
-These instructions should work on macOS and most linuxes.
+Install [mise-en-place](https://mise.jdx.dev/getting-started.html) using your
+favored method for the system.
+
+Then,
 
 ```sh
-curl https://mise.run | sh
 mises use -g chezmoi
 chezmoi init --apply https://github.com/Jswig/dotfiles.git
 mises install
