@@ -1,4 +1,11 @@
-# mise-en-place
-eval "$(~/.local/bin/mise activate bash)"
-eval "$(starship init bash)"
+if [ -f /opt/homebrew/bin/mise ]; then
+    eval "$(/opt/homebrew/bin/mise activate bash)"
+fi
+
+# coding agent like Cursor etc. set TERM=dumb
+if [ "$TERM" != "dumb" ]; then
+    eval "$(starship init bash)"
+fi
+
 source ~/.bash_aliases
+

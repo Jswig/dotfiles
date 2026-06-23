@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#
+# print the contents of the system clipboard
 set -e
 set -u
 
